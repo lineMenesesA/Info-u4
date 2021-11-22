@@ -16,7 +16,7 @@ class LibroSeeder extends Seeder
     public function run()
     {
         DB::table('libro')->insert([
-            'nombre'=>'macjika',
+            'nombre'=>'Machika ',
             'autor'=>'Annita'
         ]);
         DB::table('libro')->insert([
