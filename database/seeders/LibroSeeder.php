@@ -16,11 +16,11 @@ class LibroSeeder extends Seeder
     public function run()
     {
         DB::table('libro')->insert([
-            'nombre'=>'Nao Perco Meu Tempo ',
+            'nombre'=>'macjika',
             'autor'=>'Annita'
         ]);
         DB::table('libro')->insert([
-            'nombre'=>'Paradinha',
+            'nombre'=>'te envuelvo',
             'autor'=>'Annita'
         ]);
         //
